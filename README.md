@@ -82,3 +82,30 @@ This project is designed to offer practical experience in implementing Session A
 6. Use Session ID for identifying a User
 7. New view for Session Authentication
 8. Logout
+
+## User authentication service
+
+In this project, you will create a user authentication service using Flask, focusing on cookie handling, form data retrieval, API routes, and HTTP status codes. While it is advisable to use established modules or frameworks for authentication (such as Flask-User) in real-world applications, this project is intended for educational purposes. By building a custom authentication system from scratch, you will gain a step-by-step understanding of the underlying mechanisms.
+
+### Tasks
+
+0. User model
+1. create user
+2. Find user
+3. update user
+4. Hash password
+5. Register user
+6. Basic Flask app
+7. Register user
+8. Credentials validation
+9. Generate UUIDs
+10. Get session ID
+11. Log in
+12. Find user by session ID
+13. Destroy session
+14. Log out
+15. User profile
+16. Generate reset password token
+17. Get reset password token
+18. Update password
+19. Update password end-point
