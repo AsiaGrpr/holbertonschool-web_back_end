@@ -27,6 +27,14 @@ class DB:
 
         return user
 
+    def find_user_by(self, **kwargs) -> User:
+        """Find a user in the database"""
+        user = self._session.user(User).filter_by(**kwargs)
+        if user.count() == 0:
+            raise NoResultFound
+
+        return user.first()
+
     @property
     def _session(self) -> Session:
         """Memoized session object"""
