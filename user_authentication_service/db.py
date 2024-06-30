@@ -36,10 +36,3 @@ class DB:
 
         return user
 
-    def find_user_by(self, **kwargs) -> User:
-        """Find a user in the database"""
-        user = self._session.query(User).filter_by(**kwargs)
-        if user.count() == 0:
-            raise NoResultFound
-
-        return user.first()
