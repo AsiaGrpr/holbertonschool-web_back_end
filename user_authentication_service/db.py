@@ -19,14 +19,6 @@ class DB:
         Base.metadata.create_all(self._engine)
         self.__session = None
 
-    @property
-    def _session(self) -> Session:
-        """Memoized session object"""
-        if self.__session is None:
-            DBSession = sessionmaker(bind=self._engine)
-            self.__session = DBSession()
-        return self.__session
-
     def add_user(self, email: str, hashed_password: str, **kwargs) -> User:
         """Add a user to the database"""
         user = User(email=email, hashed_password=hashed_password, **kwargs)
@@ -34,3 +26,11 @@ class DB:
         self._session.commit()
 
         return user
+
+    @property
+    def _session(self) -> Session:
+        """Memoized session object"""
+        if self.__session is None:
+            DBSession = sessionmaker(bind=self._engine)
+            self.__session = DBSession()
+        return self.__session
