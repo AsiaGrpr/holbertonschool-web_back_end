@@ -44,3 +44,12 @@ class DB:
         if user is None:
             raise NoResultFound
         return user
+
+    def update_user(self, user_id: int, **kwargs) -> None:
+        """update user attributes"""
+        _id = self.find_user_by(id=user_id)
+        for key, value in kwargs.items():
+            if not hasattr(_id, key):
+                raise ValueError
+            setattr(_id, key, value)
+        self._session.commit()
