@@ -12,7 +12,7 @@ In this repository, there be saved different projects and exercises made during 
 
 <div align="center">
 
-**[Caching](README.md#caching) - [Personal data](README.md#personal-data) - [Basic authentication](README.md#basic-authentication) - [Session authentication](README.md#session-authentication) - [Unittests and integration tests](README.md#unittests-and-integration-tests) - [i18n](README.md#i18n) **
+**[Caching](README.md#caching) - [Personal data](README.md#personal-data) - [Basic authentication](README.md#basic-authentication) - [Session authentication](README.md#session-authentication) - [Unittests and integration tests](README.md#unittests-and-integration-tests) - [i18n](README.md#i18n)**
 
 ---
 
