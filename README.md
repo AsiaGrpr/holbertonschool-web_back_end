@@ -12,7 +12,7 @@ In this repository, there be saved different projects and exercises made during 
 
 <div align="center">
 
-**[Caching](README.md#caching) - [Personal data](README.md#personal-data) - [Basic authentication](README.md#basic-authentication) - [Session authentication](README.md#session-authentication) - [Unittests and integration tests](README.md#unittests-and-integration-tests)**
+**[Caching](README.md#caching) - [Personal data](README.md#personal-data) - [Basic authentication](README.md#basic-authentication) - [Session authentication](README.md#session-authentication) - [Unittests and integration tests](README.md#unittests-and-integration-tests) - [i18n](README.md#i18n) **
 
 ---
 
@@ -136,3 +136,18 @@ Execute your tests with
 6. More patching
 7. Parameterize
 8. Integration test: fixtures
+
+## i18n
+
+This project will integrate internationalization capabilities (i18n) into a Flask web application. The main objectives are to configure Flask templates for displaying multilingual content, to identify the correct localization based on URL parameters, user parameters or query headers, and to adjust timestamps according to the localized context.
+
+### Tasks
+
+0. Basic Flask app
+1. Basic Babel setup
+2. Get locale from request
+3. Parametrize templates
+4. Force locale with URL parameter
+5. Mock logging in
+6. Use user locale
+7. Infer appropriate time zone
