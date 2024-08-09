@@ -151,3 +151,15 @@ This project will integrate internationalization capabilities (i18n) into a Flas
 5. Mock logging in
 6. Use user locale
 7. Infer appropriate time zone
+
+## Redis basic
+
+This project will cover the basics of using Redis with Python. We will cover how to install Redis, and use it in a container.
+
+### Tasks
+
+0. Writing strings to Redis
+1. Reading from Redis and recovering original type
+2. Incrementing values
+3. Storing lists
+4. Retrieving lists
