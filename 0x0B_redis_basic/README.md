@@ -1,49 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="google" content="notranslate">
-    <title>Project: Redis basic | Holberton Toulouse, France Intranet</title>
-      <link rel="stylesheet" href="https://use.typekit.net/xgz4ilr.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-      <link rel="stylesheet" media="all" href="/assets/application-82f828a36761ddaf87c87d57bfdf65ea423ccdbd071f956e4ad4b74a2662418c.css" />
-      <script src="https://www.gstatic.com/charts/loader.js"></script>
-      <meta name="action-cable-url" content="/cable" />
-      <script src="/assets/application-08d13bb8d36999e13c0e8ca3172174cb5977d17ff1b0efa16aab65be73c6fa77.js"></script>
-      <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-      <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="lG-OobAcza7YNfD5WLKoyFcU9FQhREMLSxy70w9zgrTPQstrLHWu-ASoqiA2yREMCFKTR2RmUB0y8WvpZv7r6g" />
-      <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-      <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-      <!-- Store user timezone -->
-      <script>
-        Cookies.set('timezone', (new Date()).getTimezoneOffset() / -60.0);
-      </script>
-      <!-- intro.js for interactive onboarding -->
-        <script src="https://unpkg.com/intro.js/minified/intro.min.js"></script>
-        <link rel="stylesheet" media="screen" href="https://unpkg.com/intro.js/minified/introjs.min.css" />
-      <!-- React -->
-      <script src="/packs/js/application-2cffc7801fdb901a7a96.js"></script>
-      <link rel="stylesheet" media="screen" href="/packs/css/application-87456da7.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-  </head>
-  <body>
+<body>
 
   <div class="panel-body">
 <h1>Redis Basis</h1>
-<p><img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/1/40eab4627f1bea7dfe5e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20240809%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20240809T184155Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=22734cc1b50aa95581fefd3ebe0645dccbb2f36e5cee52d580069473a93a054f" alt="" loading='lazy' style="" /></p>
-
 <h2>Resources</h2>
 
 <p><strong>Read or watch:</strong></p>
@@ -193,7 +153,6 @@ for value, fn in TEST_CASES.items():
 <!-- Self-paced manual review -->
 
   </div>
-
 
   <div class="panel-heading panel-heading-actions">
     <h3 class="panel-title">
