@@ -52,7 +52,7 @@ $ sed -i &quot;s/bind .*/bind 127.0.0.1/g&quot; /etc/redis/redis.conf
 </div>
   <div class="panel-heading panel-heading-actions">
     <h3 class="panel-title">
-      1. Writing strings to Redis
+      0. Writing strings to Redis
     </h3>
 
 <!-- Task Body -->
