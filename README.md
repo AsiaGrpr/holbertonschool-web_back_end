@@ -12,7 +12,7 @@ In this repository, there be saved different projects and exercises made during 
 
 <div align="center">
 
-**[Caching](README.md#caching) - [Personal data](README.md#personal-data) - [Basic authentication](README.md#basic-authentication) - [Session authentication](README.md#session-authentication) - [Unittests and integration tests](README.md#unittests-and-integration-tests) - [i18n](README.md#i18n)**
+**[Caching](README.md#caching) - [Personal data](README.md#personal-data) - [Basic authentication](README.md#basic-authentication) - [Session authentication](README.md#session-authentication) - [Unittests and integration tests](README.md#unittests-and-integration-tests) - [i18n](README.md#i18n) - [Redis basic](README.md#redis-basic) - [MySQL advanced](README.md#mysql-advanced)**
 
 ---
 
@@ -163,3 +163,21 @@ This project will cover the basics of using Redis with Python. We will cover how
 2. Incrementing values
 3. Storing lists
 4. Retrieving lists
+
+## MySQL advanced
+
+
+### Tasks
+
+0. We are all unique!
+1. In and not out
+2. Best band ever!
+3. Old school band
+4. Buy buy buy
+5. Email validation to sent
+6. Add bonus
+7. Average score
+8. Optimize simple search
+9. Optimize search and score
+10. Safe divide
+11. No table for a meeting
